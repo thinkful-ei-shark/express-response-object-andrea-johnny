@@ -15,4 +15,4 @@ app.get('/apps', (req, res) => {
 });
 
 
-app.listen(8080, () => console.log('server started'));
+module.exports = app;
